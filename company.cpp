@@ -132,6 +132,7 @@ void test(Company &A) {
     cout << endl;
     string choose;
     cin >> choose;
+
     A.Assigning(choose);
 }
 

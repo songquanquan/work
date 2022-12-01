@@ -32,6 +32,7 @@ public:
     int m_nShape;
     int m_norder;
     char m_szDetail[100];
+
 private:
     int *m_weight;
 };
