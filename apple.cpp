@@ -15,6 +15,10 @@ public:
         m_weight = new int(*a.m_weight);
     }
 
+    ~apple() {
+        delete m_weight;
+    }
+
     /*
 说明：该方法用来实现成员变量m_norder的减norder操作
 */
@@ -40,5 +44,5 @@ private:
 int main() {
     apple A;
     A.apple_number_add(4);
-    apple B=A;
+    apple B = A;
 }
